@@ -10,7 +10,6 @@ product = sum * 2
 print(product)
 
 
-
 #Data types
 
 planets_in_solar_system = 8 # int, pluto used to be the 9th planet, but is too small

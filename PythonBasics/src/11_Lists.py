@@ -1,5 +1,6 @@
 planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
 
+print(planets)
 print("The first Planet is", planets[0])
 print("The second Planet is", planets[1])
 print("The third Planet is", planets[2])

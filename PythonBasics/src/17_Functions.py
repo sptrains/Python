@@ -74,16 +74,16 @@ variable_length(None)
 
 #===================================================================
 
-def sequnce_time(*args):
+def sequence_time(*args):
     total_minutes=sum(args)
     if total_minutes <60:
         return f"Total time to launch is {total_minutes} minutes"
     else:
         return f"Total time to launch is {total_minutes/60} minutes"
     
-print(sequnce_time())
-print(sequnce_time(10,20,30))
-print(sequnce_time(11,20,30))
+print(sequence_time())
+print(sequence_time(10,20,30))
+print(sequence_time(11,20,30))
 
 #===================================================================
 
